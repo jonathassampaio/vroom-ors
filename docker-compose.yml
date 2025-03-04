@@ -54,6 +54,12 @@ services:
       #ors.engine.profile_default.graph_path: /home/ors/graphs
       #ors.engine.elevation.cache_path: /home/ors/elevation_cache
       #ors.engine.profiles.car.enabled: true
+      ors.engine.profile_default.service.maximum_distance: 5000000
+      ors.engine.profile_default.service.maximum_waypoints: 1000
+      ors.engine.profile_default.service.maximum_snapping_radius: 400
+      ors.engine.profile_default.service.maximum_distance_alternative_routes: 5000000
+      ors.engine.profile_default.service.maximum_distance_round_trip_routes: 5000000
+      ors.engine.profile_default.service.maximum_visited_nodes: 5000000
       #logging.level.org.heigit: DEBUG
 
     # ----------------- ENV file configuration ------------------- #
