@@ -5,8 +5,15 @@ vroom-ors
 - HD com minimo de 20 GB
 - Memoria com minimo de 6 GB
 
-### install
+### install docker no ubuntu
 
 ``` sh
-wget -O - https://github.com/jonathassampaio/vroom-ors/blob/main/init.sh | bash
+wget -O - https://raw.githubusercontent.com/jonathassampaio/vroom-ors/refs/heads/main/install_docker_ubuntu.sh | bash
+``` 
+
+
+### init
+
+``` sh
+wget -O - https://raw.githubusercontent.com/jonathassampaio/vroom-ors/refs/heads/main/init.sh | bash
 ``` 
