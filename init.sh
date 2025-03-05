@@ -8,10 +8,10 @@ mkdir -p ./elevation_cache
 
 wget https://download.geofabrik.de/south-america/brazil-latest.osm.pbf -P ./files
 
-wget https://github.com/jonathassampaio/vroom-ors/blob/main/config/config.yml -P ./config
-wget https://github.com/jonathassampaio/vroom-ors/blob/main/config/ors-config.yml -P ./config
+wget https://raw.githubusercontent.com/jonathassampaio/vroom-ors/refs/heads/main/config/config.yml -P ./config
+wget https://raw.githubusercontent.com/jonathassampaio/vroom-ors/refs/heads/main/config/ors-config.yml -P ./config
 
-wget https://github.com/jonathassampaio/vroom-ors/blob/main/docker-compose.yml
+wget https://raw.githubusercontent.com/jonathassampaio/vroom-ors/refs/heads/main/docker-compose.yml
 
 echo "docker compose up -d"
 
